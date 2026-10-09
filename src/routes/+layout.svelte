@@ -7,8 +7,19 @@
 
 <svelte:head>
 	<link rel="icon" href={favicon} />
-	<h1>BeauByte</h1>
-	<h3> Home Projects Certifications Background</h3>
+	<title>BeauByte</title>
 </svelte:head>
-
+<header>
+	<h1>// BeauByte</h1>
+	<h3> Home <a href="/projects">Projects</a> <a href="certifications">Certifications</a> <a href="background">Background</a> </h3>
+</header>
 {@render children()}
+
+<style>
+	header{
+		font-family: system-ui
+	}
+	body {
+		text-align: left;
+	}
+</style>
