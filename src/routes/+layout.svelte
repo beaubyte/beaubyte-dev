@@ -11,13 +11,18 @@
 
 </svelte:head>
 <header>
-	<h1>// BeauByte</h1>
-	<h3 style="padding-left: 10px"> <a href="/">Home</a> <a href="/projects">Projects</a> <a href="certifications">Certifications</a> <a href="background">Background</a></h3>
+	<div id="header-text">
+		<h1>// BeauByte</h1>
+		<h3> <a href="/">Home</a> <a href="/projects">Projects</a> <a href="certifications">Certifications</a> <a href="background">Background</a></h3>
+	</div>
 </header>
 {@render children()}
 
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap');
+	:global(html) {
+		background-color: #fff6ee;
+	}
 	:global(body) {
 		text-align: left;
 		max-width: 800px;
@@ -27,18 +32,26 @@
 		padding-left: 25px;
 		padding-right: 25px;
 		border-left-style: dotted;
+		border-left-width: 8px;
+		border-right-width: 8px;
 		border-right-style: dotted;
-
+		font-family: Literata, serif;
+		padding-bottom: 50px;
+		border-bottom-style: solid;
+		border-bottom-width: 5px;
 	}
 	header{
-		font-family: Literata, serif;
 		min-width: 400px;
 		max-width: 800px;
 		word-spacing: 8px;
-		margin-top: 20px;
-		padding-left: 10px;
-		padding-right: 10px;
+		padding-top: 20px;
+
+	}
+	#header-text{
+		padding-left: 20px;
+		padding-right: 20px;
 		border-style: double;
+		border-width: 8px;
 	}
 
 
