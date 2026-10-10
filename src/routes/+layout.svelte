@@ -54,6 +54,10 @@
 		border-width: 8px;
 	}
 
+	:global(.project){
+
+	}
+
 
 
 </style>
