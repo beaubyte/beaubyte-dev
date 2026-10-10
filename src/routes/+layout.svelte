@@ -37,8 +37,7 @@
 		border-right-style: dotted;
 		font-family: Literata, serif;
 		padding-bottom: 50px;
-		border-bottom-style: solid;
-		border-bottom-width: 5px;
+		box-shadow: 0px 0px 8px 4px;
 	}
 	header{
 		min-width: 400px;
@@ -57,7 +56,12 @@
 	:global(.project){
 
 	}
-
+	a {
+			color: #000000;
+	}
+	a:hover {
+			color: chocolate;
+	}
 
 
 </style>
