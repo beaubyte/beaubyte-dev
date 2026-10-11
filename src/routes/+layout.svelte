@@ -53,8 +53,8 @@
 		border-width: 8px;
 	}
 
-	:global(.project){
-
+	:global(.darken){
+			filter: brightness(0);
 	}
 	a {
 			color: #000000;
