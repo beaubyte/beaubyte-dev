@@ -53,6 +53,12 @@
 		border-width: 8px;
 	}
 
+	:global(hr) {
+			background-color: black;
+			height: 1px;
+			margin: 2px;
+	}
+
 	:global(.darken){
 			filter: brightness(0);
 	}
