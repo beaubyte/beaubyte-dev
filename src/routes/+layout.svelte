@@ -80,6 +80,63 @@
 	a:hover {
 			color: chocolate;
 	}
+	:global(.attached-note) {
+		overflow: hidden;
+		margin: 20px;
+		box-shadow: 0 0 2px 1px;
+		background: rgb(255 255 255 / 0.90);
+	}
+	:global(.attached-note img) {
+		position: relative;
+		object-fit: scale-down;
+		bottom: 20px;
+		height: inherit;
+		width: inherit;
+	}
+	:global(.attached-note .staple1){
+		position: relative;
+		border-bottom-style: ridge;
+		border-radius: 5px;
+		border-bottom-width: 5px;
+		width: 30px;
+		rotate:  140deg;
+		color: #646464;
+		bottom: -5%;
+		left: 1%;
+	}
+	:global(.attached-note .staple2){
+		position: relative;
+		border-bottom-style: ridge;
+		border-radius: 5px;
+		border-bottom-width: 5px;
+		width: 30px;
+		rotate: 220deg;
+		color: #646464;
+		left: 95%;
+		bottom: -5%;
+	}
+	:global(.attached-note .staple3){
+		position: relative;
+		border-bottom-style: ridge;
+		border-radius: 5px;
+		border-bottom-width: 5px;
+		width: 30px;
+		rotate: 40deg;
+		color: #646464;
+		bottom: -90%;
+		left: 1%;
+	}
+	:global(.attached-note .staple4){
+		position: relative;
+		border-bottom-style: ridge;
+		border-radius: 5px;
+		border-bottom-width: 5px;
+		width: 30px;
+		rotate: -40deg;
+		color: #646464;
+		bottom: -90%;
+		left: 95%;
+	}
 
 
 </style>
