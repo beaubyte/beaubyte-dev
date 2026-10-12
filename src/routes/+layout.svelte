@@ -16,6 +16,17 @@
 		<h3> <a href="/">Home</a> <a href="/projects">Projects</a> <a href="certifications">Certifications</a> <a href="background">Background</a></h3>
 	</div>
 </header>
+<svg height=0>
+	<filter id="feblend">
+		<feTurbulence baseFrequency="0.8" numOctaves="6" result="turb" seed="200"/>
+		<feDisplacementMap in="SourceGraphic" in2="turb" scale="20" xChannelSelector="B" yChannelSelector="A"/>
+		<feComposite operator="out" in="SourceGraphic" in2="offset-turb" result="inverse"/>
+		<feFlood flood-color="black" flood-opacity="0.05" result="color"/>
+		<feComposite operator="atop" in="color" in2="inverse" result="shadow"/>
+		<feBlend in="shadow" in2="SourceGraphic" mode="multiply"/>
+	</filter>
+	<!-- credit to @alexmwalker for the filter -->
+</svg>
 {@render children()}
 
 <style>
@@ -24,6 +35,7 @@
 		background-color: #fff6ee;
 	}
 	:global(body) {
+		filter: url("#feblend");
 		text-align: left;
 		max-width: 800px;
 		min-width: 400px;
