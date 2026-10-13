@@ -47,7 +47,6 @@
 		background-color: #fff6ee;
 	}
 	:global(body) {
-		filter: url("#feblend");
 		text-align: left;
 		max-width: 800px;
 		min-width: 400px;
