@@ -1,8 +1,20 @@
 <script lang="ts">
 	import favicon from '#lib/assets/favicon.svg';
+	import { onNavigate } from '$app/navigation';
 	import type { LayoutProps } from './$types';
 
 	let { children }: LayoutProps = $props();
+
+	onNavigate((navigation) => {
+		if (!document.startViewTransition) return; // bailout if browser doesn't support viewTransition
+
+		return new Promise<void>((resolve) => {
+			document.startViewTransition(async () => {
+				resolve();
+				await navigation.complete;
+			});
+		});
+	});
 </script>
 
 <svelte:head>
@@ -137,6 +149,25 @@
 		bottom: -90%;
 		left: 95%;
 	}
+  @keyframes fade-in {
+      from {
+          opacity: 0;
+      }
+  }
 
+  @keyframes fade-out {
+      to {
+          opacity: 0;
+      }
+  }
 
+  :root::view-transition-old(root) {
+      animation:
+              50ms cubic-bezier(0.4, 0, 1, 1) both fade-out
+  }
+
+  :root::view-transition-new(root) {
+      animation:
+              250ms cubic-bezier(0, 0, 0.2, 1) 90ms both fade-in
+  }
 </style>
