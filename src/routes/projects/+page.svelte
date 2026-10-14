@@ -1,5 +1,6 @@
 <script>
     import btdiagram from "#lib/assets/btinvest.png";
+    import shocarlodiagram from '#lib/assets/shocarlo_text_formatter.png'
 </script>
 
 <style>
@@ -96,8 +97,15 @@
     </h3>
     <p>
         An AI-enhanced serverless text formatter built in AWS that applies HTML rules and an LLM to
-        achieve consistant text formatting on uploaded HTML documents and rich text
+        achieve consistant text formatting on uploaded HTML documents and rich text.
     </p>
+    <div class="attached-note" style="rotate: 0.3deg; height: 340px">
+        <div class="staple1"></div>
+        <div class="staple2"></div>
+        <div class="staple3"></div>
+        <div class="staple4"></div>
+        <img src={shocarlodiagram} alt="a diagram showing the design of the shocarlo text formatter program">
+    </div>
 </div>
 <div class="project">
     <h3>
