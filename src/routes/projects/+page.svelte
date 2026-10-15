@@ -1,9 +1,16 @@
 <script>
     import btdiagram from "#lib/assets/btinvest.png";
     import shocarlodiagram from '#lib/assets/shocarlo_text_formatter.png'
+    import peakytype from '#lib/assets/led_display.png'
 </script>
 
 <style>
+    a {
+        color: saddlebrown;
+    }
+    a:hover {
+        color: chocolate;
+    }
     #ai-note {
         padding: 10px;
     }
@@ -69,6 +76,7 @@
         <div class="staple4"></div>
         <img src={btdiagram} alt="a diagram showing the design of the bt-investigator program">
     </div>
+    <p style="text-align: right"><a href="https://github.com/beaubyte/bt-le-investigator">GitHub↗</a></p>
 </div>
 <div class="project">
     <h3>
@@ -80,6 +88,13 @@
         and weather.gov APIs, renders fonts with an open-source library, and is frequently updated by
         me whenever I get new ideas.
     </p>
+    <div class="attached-note" style="rotate: 0.2deg; height: 400px">
+        <div class="staple1"></div>
+        <div class="staple2"></div>
+        <div class="staple3"></div>
+        <div class="staple4"></div>
+        <img src={peakytype} alt="a diagram showing the wiring of the peaky type">
+    </div>
 </div>
 <div class="project">
     <h3>
@@ -88,7 +103,7 @@
     <p>
         A set of AirMedia scripts written in Python that interact with the API to monitor, configure,
         and enforce large deployments of AirMedia 200 and 3000 devices. Future work on this project may
-        include console-driven interaction, including support for more Crestron devices at scale.
+        use some console-driven interaction, including support for more Crestron devices at scale.
     </p>
 </div>
 <div class="project">
@@ -106,23 +121,30 @@
         <div class="staple4"></div>
         <img src={shocarlodiagram} alt="a diagram showing the design of the shocarlo text formatter program">
     </div>
+    <p style="text-align: right"><a href="https://github.com/beaubyte/shocarlo-text-formatter">GitHub↗</a></p>
 </div>
 <div class="project">
     <h3>
         PriceClicker
     </h3>
     <p>
-        A simple Cookie Clicker-inspired game made in JavaFX, with different cafeteria-themed food items.
-        Small in scale, but taught me a lot about UI design that i've brought to later projects.
+        PriceClicker is a Java program built with the JavaFX framework. It is a basic cookie-clicker game around cafeteria food.
+        It has a basic progression system, where you continue to click a burger and eventually can unlock things that
+        will click for you, and items that will improve the value of each click you do. It can also write and load save
+        data to a savefile.
     </p>
+    <p style="text-align: right"><a href="https://github.com/beaubyte/PriceClicker">GitHub↗</a></p>
 </div>
 <div class="project">
     <h3>
         beaupod-loader
     </h3>
     <p>
-        A small script that I use to load my iPod with songs from my library and LastFM collections.
+        A script I made to get top songs from my Last.FM or from YouTube Music playlists/radios, attach metadata, and
+        then download via yt-dlp to an .M4A file for loading onto my iPod. Requires a custom-compiled ffmpeg for proper
+        codec support.
     </p>
+    <p style="text-align: right"><a href="https://github.com/beaubyte/beaupod-loader">GitHub↗</a></p>
 </div>
 <div class="project">
     <h3>
@@ -133,9 +155,18 @@
         archive stored in a Discord channel and stored by Discord's CDN. Built to a very specific use-case,
         but performs very well under C++ as a systemd service.
     </p>
+    <p style="text-align: right"><a href="https://github.com/beaubyte/funye-vid-archiver">GitHub↗</a></p>
 </div>
 <div class="project">
     <h3>
         timesavers
     </h3>
+    <p>
+        Timesavers is a website built for a TaaS (Time as a Service) company that sells the ability to go back in time
+        to people. It offers premade places found it time to travel to, but also allows the ability to put in a custom
+        order for a specific place in time. It uses PHP, HTML, CSS, MySQL, and JavaScript.
+    </p>
+    <p style="text-align: right;">
+    <a href="https://github.com/beaubyte/timesavers" >GitHub↗</a>
+    </p>
 </div>

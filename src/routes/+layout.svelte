@@ -39,6 +39,7 @@
 	</filter>
 	<!-- credit to @alexmwalker for the filter -->
 </svg>
+
 {@render children()}
 
 <style>
