@@ -3,6 +3,7 @@
 	import { onNavigate } from '$app/navigation';
 	import type { LayoutProps } from './$types';
 	let { children }: LayoutProps = $props();
+	import { resolve } from '$app/paths';
 
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return; // bailout if browser doesn't support viewTransition
@@ -24,7 +25,7 @@
 <header>
 	<div id="header-text">
 		<h1>// BeauByte</h1>
-		<h3> <a href="/">Home</a> <a href="/projects">Projects</a> <a href="certifications">Certifications</a> <a href="background">Background</a></h3>
+		<h3> <a href={resolve('/')}>Home</a> <a href="{resolve('/projects')}">Projects</a> <a href={resolve('/certifications')}>Certifications</a> <a href={resolve('/background')}>Background</a></h3>
 	</div>
 </header>
 <svg height=0>
