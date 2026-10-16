@@ -28,9 +28,9 @@
 	</div>
 	<div style="max-width: 250px;">
 		<img src={uwstoutlogo} height="50px;" alt="Logo for UW-Stout" class="darken" style="padding-top: 10px; padding-left: 15%">
-		<p style="font-size: 10pt; margin: 0"><i>September 2024 - May 2027 (Expected)</i>
+		<p style="font-size: 10pt; margin: 0"><i>September 2024 - May 2027 (Expected)</i></p>
 		<h4>
-			Proficient in:
+			Experience with:
 		</h4>
 		<ul>
 			<li>Cisco networking concepts, including standard CCNA and higher-level topics.</li>
