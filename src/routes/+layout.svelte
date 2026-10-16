@@ -2,7 +2,6 @@
 	import favicon from '#lib/assets/favicon.svg';
 	import { onNavigate } from '$app/navigation';
 	import type { LayoutProps } from './$types';
-	export const prerender = true;
 	let { children }: LayoutProps = $props();
 
 	onNavigate((navigation) => {
