@@ -10,7 +10,16 @@ export default defineConfig({
 				runes: ({ filename }) =>
 					filename.split(/[/\\]/).includes('node_modules') ? undefined : true
 			},
-			adapter: adapter()
+			adapter: adapter({
+				pages: 'build',
+				assets: 'build',
+				fallback: undefined,
+				precompress: false,
+				strict: true
+			}),
+			paths: {
+				base: process.argv.includes('dev') ? '' : '/beaubyte-dev'
+			},
 		})
 	]
 });

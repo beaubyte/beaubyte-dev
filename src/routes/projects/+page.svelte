@@ -45,6 +45,7 @@
         margin-top: 0;
     }
 </style>
+<!--
 <div id="ai-note">
     <hr>
     <h3>
@@ -59,7 +60,7 @@
         considering their cost-effectiveness to IKEA.
     </p>
     <hr>
-</div>
+</div> -->
 <div class="project">
     <h3>
         bt-le-investigator
