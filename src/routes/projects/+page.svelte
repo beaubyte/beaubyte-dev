@@ -28,7 +28,8 @@
         border-width: 2px;
         border-color: black;
         border-style: solid;
-        margin: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .project h3 {
         position: relative;

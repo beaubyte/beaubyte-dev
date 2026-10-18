@@ -50,7 +50,7 @@
 	:global(body) {
 		text-align: left;
 		max-width: 800px;
-		min-width: 400px;
+		min-width: 300px;
 		background-color: #fbf8f2;
 		margin: 0 auto;
 		padding-left: 25px;
@@ -64,7 +64,7 @@
 		box-shadow: 0px 0px 8px 4px;
 	}
 	header{
-		min-width: 400px;
+		min-width: 300px;
 		max-width: 800px;
 		word-spacing: 8px;
 		padding-top: 20px;
