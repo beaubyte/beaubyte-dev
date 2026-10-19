@@ -33,18 +33,7 @@
 			<summary>Cybersecurity Analyst</summary>
 		</details>
 		<details>
-			<summary>Network <svg height=0>
-	<filter id="feblend">
-		<feTurbulence baseFrequency="0.8" numOctaves="6" result="turb" seed="200"/>
-		<feDisplacementMap in="SourceGraphic" in2="turb" scale="20" xChannelSelector="B" yChannelSelector="A"/>
-		<feComposite operator="out" in="SourceGraphic" in2="offset-turb" result="inverse"/>
-		<feFlood flood-color="black" flood-opacity="0.05" result="color"/>
-		<feComposite operator="atop" in="color" in2="inverse" result="shadow"/>
-		<feBlend in="shadow" in2="SourceGraphic" mode="multiply"/>
-	</filter>
-	<!-- credit to @alexmwalker for the filter -->
-</svg>
-Engineer</summary>
+			<summary>Network Engineer</summary>
 		</details>
 		<details>
 			<summary>Systems Administrator</summary>
