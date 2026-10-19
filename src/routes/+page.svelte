@@ -16,6 +16,9 @@
 	li {
 		margin: 5px;
 	}
+	details {
+		cursor: pointer;
+	}
 </style>
 
 <div id="homebox">
@@ -25,6 +28,30 @@
 		<p>I study Cybersecurity at the University of Wisconsin-Stout Polytechnic. I am pursuing a <i>B.S. in Cybersecurity</i>,
 		with minors in <i>Information Security Management</i>, <i>Network Systems & Design</i>, and <i>Computer Science</i>.</p>
 		<p>Currently seeking full-time work in the Eau Claire or Twin Cities metro areas.</p>
+		<h4>How I could serve well as a:</h4>
+		<details>
+			<summary>Cybersecurity Analyst</summary>
+		</details>
+		<details>
+			<summary>Network <svg height=0>
+	<filter id="feblend">
+		<feTurbulence baseFrequency="0.8" numOctaves="6" result="turb" seed="200"/>
+		<feDisplacementMap in="SourceGraphic" in2="turb" scale="20" xChannelSelector="B" yChannelSelector="A"/>
+		<feComposite operator="out" in="SourceGraphic" in2="offset-turb" result="inverse"/>
+		<feFlood flood-color="black" flood-opacity="0.05" result="color"/>
+		<feComposite operator="atop" in="color" in2="inverse" result="shadow"/>
+		<feBlend in="shadow" in2="SourceGraphic" mode="multiply"/>
+	</filter>
+	<!-- credit to @alexmwalker for the filter -->
+</svg>
+Engineer</summary>
+		</details>
+		<details>
+			<summary>Systems Administrator</summary>
+		</details>
+		<details>
+			<summary>Software Developer</summary>
+		</details>
 	</div>
 	<div style="max-width: 250px;">
 		<img src={uwstoutlogo} height="50px;" alt="Logo for UW-Stout" class="darken" style="padding-top: 10px; padding-left: 15%">
