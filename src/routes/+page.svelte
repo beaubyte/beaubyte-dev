@@ -19,6 +19,9 @@
 	details {
 		cursor: pointer;
 	}
+	details p {
+		cursor: text;
+	}
 </style>
 
 <div id="homebox">
@@ -46,7 +49,9 @@
 				I have a homelab that I run for my own personal services and applications. I am knowledgeable with
 				container platforms like Docker and Proxmox, and general Linux server administration and best security
 				practices. I have experience routing services through reverse proxies, Tailscale services, and creating
-				service-specific firewall rules for services when needed.
+				service-specific firewall rules for services when needed. I work declaratively when possible, with docker
+				compose files and git for Tailscale routing rules, Ansible automations, and pretty much anything that goes
+				through iterative development.
 			</p>
 		</details>
 		<details>
@@ -54,8 +59,12 @@
 			<p>
 				I develop my own applications and services to improve various things in my life. I have done Python automation
 				work at my jobs at UW-Stout Polytechnic and Kwik Trip, using git for version control. I have experience
-				working in Agile, and with building Github Actions for code linting, tests, and deployment. I hand-build all
-				applications that I make, and seek to have strong understandings of the libraries that I work with.
+				working in Agile, and with building GitHub Actions for code linting, tests, and deployment. I hand-build all
+				applications that I make, and seek to have strong understandings of the libraries that I work with. I am
+				strongest in C++, but have experience with Java, Python, and web development as well. While I don't use AI
+				for writing any of my projects, I have experience with LLMs dating back to pre-GPT3 tools like Inferkit, and
+				I utilize Claude's API through AWS Bedrock in my <code>shocarlo-text-formatter</code> project. Vim keybindings
+				are my friend.
 			</p>
 		</details>
 	</div>
