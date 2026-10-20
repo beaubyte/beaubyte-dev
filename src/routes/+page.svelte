@@ -34,13 +34,22 @@
 		<h4>How I could serve well as a:</h4>
 		<details>
 			<summary>Cybersecurity Analyst</summary>
-			<p>I have experience working with </p>
+			<p>
+				UW-Stout Polytechnic ranks as a top Cybersecurity school in the United States. We learn intrusion detection, building
+				resilient and secure networks, and finding, exploiting, and defending against different threat vectors.
+				I have experience working with metasploit, hashcat, nmap, and many other tools in simulated networks to
+				find attacks and privilege escalations. My project <code>bt-le-investigator</code> was built to show a
+				potential malicious use of Bluetooth MAC addresses, and I build different devices and scripts to use on the field
+				when demonstrating vulnerabilities.
+			</p>
 		</details>
 		<details>
 			<summary>Network Engineer</summary>
 			<p>
 				I have a CCNA, and have worked extensively with Cisco equipment in configuration and automation. At my
-				internship with Kwik Trip, I worked with both cloud-managed Meraki switches and Catalyst Center.
+				internship with Kwik Trip, I worked with cloud-managed Meraki switches, Catalyst Center, and SD-WAN Manager.
+				I also worked with cloud-based Mist APs, and Ansible for configuration and automation. I am very adaptable,
+				and can understand and ramp up quickly to your environment.
 			</p>
 		</details>
 		<details>
