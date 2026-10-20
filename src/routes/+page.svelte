@@ -22,6 +22,8 @@
 	details p {
 		cursor: text;
 	}
+
+
 </style>
 
 <div id="homebox">
@@ -32,7 +34,7 @@
 		with minors in <i>Information Security Management</i>, <i>Network Systems & Design</i>, and <i>Computer Science</i>.</p>
 		<p>Currently seeking full-time work in the Eau Claire or Twin Cities metro areas.</p>
 		<h4>How I could serve well as a:</h4>
-		<details>
+		<details name="positions">
 			<summary>Cybersecurity Analyst</summary>
 			<p>
 				UW-Stout Polytechnic ranks as a top Cybersecurity school in the United States. We learn intrusion detection, building
@@ -43,7 +45,7 @@
 				when demonstrating vulnerabilities.
 			</p>
 		</details>
-		<details>
+		<details name="positions">
 			<summary>Network Engineer</summary>
 			<p>
 				I have a CCNA, and have worked extensively with Cisco equipment in configuration and automation. At my
@@ -52,7 +54,7 @@
 				and can understand and ramp up quickly to your environment.
 			</p>
 		</details>
-		<details>
+		<details name="positions">
 			<summary>Systems Administrator</summary>
 			<p>
 				I have a homelab that I run for my own personal services and applications. I am knowledgeable with
@@ -63,7 +65,7 @@
 				through iterative development.
 			</p>
 		</details>
-		<details>
+		<details name="positions">
 			<summary>Software Developer</summary>
 			<p>
 				I develop my own applications and services to improve various things in my life. I have done Python automation
