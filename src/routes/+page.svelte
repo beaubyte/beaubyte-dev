@@ -31,15 +31,32 @@
 		<h4>How I could serve well as a:</h4>
 		<details>
 			<summary>Cybersecurity Analyst</summary>
+			<p>I have experience working with </p>
 		</details>
 		<details>
 			<summary>Network Engineer</summary>
+			<p>
+				I have a CCNA, and have worked extensively with Cisco equipment in configuration and automation. At my
+				internship with Kwik Trip, I worked with both cloud-managed Meraki switches and Catalyst Center.
+			</p>
 		</details>
 		<details>
 			<summary>Systems Administrator</summary>
+			<p>
+				I have a homelab that I run for my own personal services and applications. I am knowledgeable with
+				container platforms like Docker and Proxmox, and general Linux server administration and best security
+				practices. I have experience routing services through reverse proxies, Tailscale services, and creating
+				service-specific firewall rules for services when needed.
+			</p>
 		</details>
 		<details>
 			<summary>Software Developer</summary>
+			<p>
+				I develop my own applications and services to improve various things in my life. I have done Python automation
+				work at my jobs at UW-Stout Polytechnic and Kwik Trip, using git for version control. I have experience
+				working in Agile, and with building Github Actions for code linting, tests, and deployment. I hand-build all
+				applications that I make, and seek to have strong understandings of the libraries that I work with.
+			</p>
 		</details>
 	</div>
 	<div style="max-width: 250px;">
