@@ -1,7 +1,4 @@
 <script>
-	import kwiktrip from '../../../static/kwik_trip.svg';
-	import uwstout from '../../../static/uwstout.svg';
-	import target from '../../../static/target.svg';
 </script>
 
 <style>
@@ -69,7 +66,7 @@
 				Network Engineering Intern — La Crosse, WI <br>
 				<i>June 2026 - August 2026</i>
 			</h4>
-			<img src={kwiktrip} alt="Kwik Trip / Kwik Star Company Logo">
+			<img src="../images/kwik_trip.svg" alt="Kwik Trip / Kwik Star Company Logo">
 		</div>
 
 		<p>
@@ -93,7 +90,7 @@
 				LTS IT Classroom Technician — Menomonie, WI<br>
 				<i>September 2024 - Current</i>
 			</h4>
-			<img src={uwstout} alt="the logo for the university of wisconsin stout">
+			<img src="../images/uwstout.svg" alt="the logo for the university of wisconsin stout">
 		</div>
 
 		<p>
@@ -120,7 +117,7 @@
 				On-Demand Team Member — Buffalo, MN<br>
 				<i>July 2024 - May 2026</i>
 			</h4>
-			<img src={target} alt="the target company logo">
+			<img src="../images/target.svg" alt="the target company logo">
 		</div>
 		<p>
 			A flexible position allowing the continuation of my previous role at Target but with on-demand

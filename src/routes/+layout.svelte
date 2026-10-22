@@ -1,5 +1,5 @@
 <script lang="ts">
-	import favicon from '../../static/favicon.svg';
+	import favicon from '../../static/images/favicon.svg';
 	import { onNavigate } from '$app/navigation';
 	import type { LayoutProps } from './$types';
 	let { children }: LayoutProps = $props();
