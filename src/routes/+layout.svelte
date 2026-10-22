@@ -1,5 +1,5 @@
 <script lang="ts">
-	import favicon from '#lib/assets/favicon.svg';
+	import favicon from '../../static/favicon.svg';
 	import { onNavigate } from '$app/navigation';
 	import type { LayoutProps } from './$types';
 	let { children }: LayoutProps = $props();
@@ -163,7 +163,6 @@
               250ms cubic-bezier(0, 0, 0.2, 1) 90ms both fade-in
   }
   :global(code) {
-	  background: black;
 	  margin: 3px;
   }
 </style>

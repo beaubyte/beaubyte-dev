@@ -1,5 +1,5 @@
 <script>
-	import uwstoutlogo from '#lib/assets/uwstout.svg';
+	import uwstoutlogo from '../../static/uwstout.svg';
 </script>
 
 <style>
@@ -26,6 +26,9 @@
 	}
 	details p {
 		cursor: text;
+	}
+	code {
+			background: black;
 	}
 
 

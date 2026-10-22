@@ -1,7 +1,7 @@
 <script>
-    import btdiagram from "#lib/assets/btinvest.png";
-    import shocarlodiagram from '#lib/assets/shocarlo_text_formatter.png'
-    import peakytype from '#lib/assets/led_display.png'
+    import btdiagram from "../../../static/btinvest.png";
+    import shocarlodiagram from '../../../static/shocarlo_text_formatter.png'
+    import peakytype from '../../../static/led_display.png'
 </script>
 
 <style>

@@ -1,7 +1,7 @@
 <script>
-	import kwiktrip from '#lib/assets/kwik_trip.svg';
-	import uwstout from '#lib/assets/uwstout.svg';
-	import target from '#lib/assets/target.svg';
+	import kwiktrip from '../../../static/kwik_trip.svg';
+	import uwstout from '../../../static/uwstout.svg';
+	import target from '../../../static/target.svg';
 </script>
 
 <style>
