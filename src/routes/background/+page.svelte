@@ -2,10 +2,10 @@
 </script>
 
 <style>
-    .job-slide{
+/*    .job-slide{
 
     }
-
+*/
     .header-line h3 {
         position: relative;
         bottom: -17px;
@@ -20,7 +20,7 @@
     .header-line {
         margin: 5px;
         padding: 5px;
-        padding-top: 0px;
+        padding-top: 0;
         border-bottom: 1px solid #000
     }
 

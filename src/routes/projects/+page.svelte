@@ -8,6 +8,7 @@
     a:hover {
         color: chocolate;
     }
+    /*
     #ai-note {
         padding: 10px;
     }
@@ -21,6 +22,8 @@
         padding-right: 10px;
         margin: 5px;
     }
+    */
+
     .project {
         border-width: 2px;
         border-color: black;
