@@ -18,6 +18,11 @@
 	}
 	details {
 		cursor: pointer;
+		background: saddlebrown;
+		padding: 14px;
+		border-radius: 5px;
+		margin: 2px;
+		color: white;
 	}
 	details p {
 		cursor: text;
@@ -78,6 +83,11 @@
 				are my friend.
 			</p>
 		</details>
+		<div>
+			<p>
+			Get in touch with me at <a href="mailto:contact@beaubyte.dev">contact@beaubyte.dev</a>
+			</p>
+			</div>
 	</div>
 	<div style="max-width: 250px;">
 		<img src={uwstoutlogo} height="50px;" alt="Logo for UW-Stout" class="darken" style="padding-top: 10px; padding-left: 15%">

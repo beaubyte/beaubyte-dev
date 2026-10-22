@@ -78,7 +78,10 @@
 	a {
 			color: #000000;
 	}
-	a:hover {
+	:global(a) {
+		color: saddlebrown;
+	}
+	:global(a:hover) {
 			color: chocolate;
 	}
 	:global(.attached-note) {
@@ -158,5 +161,9 @@
   :root::view-transition-new(root) {
       animation:
               250ms cubic-bezier(0, 0, 0.2, 1) 90ms both fade-in
+  }
+  :global(code) {
+	  background: black;
+	  margin: 3px;
   }
 </style>
