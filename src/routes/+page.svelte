@@ -59,7 +59,8 @@
 				I have a CCNA, and have worked extensively with Cisco equipment in configuration and automation. At my
 				internship with Kwik Trip, I worked with cloud-managed Meraki switches, Catalyst Center, and SD-WAN Manager.
 				I also worked with cloud-based Mist APs, and Ansible for configuration and automation. I am very adaptable,
-				and can understand and ramp up quickly to your environment.
+				and can understand and ramp up quickly to your environment. I route data for my homelab across many different
+				vectors and maintain zero-trust rules for what data can flow where.
 			</p>
 		</details>
 		<details name="positions">
