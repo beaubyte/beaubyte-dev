@@ -1,7 +1,4 @@
 <script>
-    import btdiagram from "../../../static/btinvest.png";
-    import shocarlodiagram from '../../../static/shocarlo_text_formatter.png'
-    import peakytype from '../../../static/led_display.png'
 </script>
 
 <style>
@@ -11,6 +8,7 @@
     a:hover {
         color: chocolate;
     }
+    /*
     #ai-note {
         padding: 10px;
     }
@@ -24,6 +22,8 @@
         padding-right: 10px;
         margin: 5px;
     }
+    */
+
     .project {
         border-width: 2px;
         border-color: black;
@@ -76,7 +76,7 @@
         <div class="staple2"></div>
         <div class="staple3"></div>
         <div class="staple4"></div>
-        <img src={btdiagram} alt="a diagram showing the design of the bt-investigator program">
+        <img src="../images/btinvest.png" alt="a diagram showing the design of the bt-investigator program">
     </div>
     <p style="text-align: right"><a href="https://github.com/beaubyte/bt-le-investigator">GitHub↗</a></p>
 </div>
@@ -95,7 +95,7 @@
         <div class="staple2"></div>
         <div class="staple3"></div>
         <div class="staple4"></div>
-        <img src={peakytype} alt="a diagram showing the wiring of the peaky type">
+        <img src="../images/led_display.png" alt="a diagram showing the wiring of the peaky type">
     </div>
 </div>
 <div class="project">
@@ -121,7 +121,7 @@
         <div class="staple2"></div>
         <div class="staple3"></div>
         <div class="staple4"></div>
-        <img src={shocarlodiagram} alt="a diagram showing the design of the shocarlo text formatter program">
+        <img src="../images/shocarlo_text_formatter.png" alt="a diagram showing the design of the shocarlo text formatter program">
     </div>
     <p style="text-align: right"><a href="https://github.com/beaubyte/shocarlo-text-formatter">GitHub↗</a></p>
 </div>
